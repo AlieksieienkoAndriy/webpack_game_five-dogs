@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --config webpack/base.js --open",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://github.com/AlieksieienkoAndriy/webpack_game_five-dogs",
+  "homepage": "https://AlieksieienkoAndriy.github.io/webpack_game_five-dogs",
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/preset-env": "^7.12.16",
