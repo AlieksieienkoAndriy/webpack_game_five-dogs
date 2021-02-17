@@ -4,11 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  entry: './src/index.js',
-  // output: {
-  //   filename: 'bundle.min.js',
-  //   path: path.resolve(__dirname, 'dist'),
-  // },
+  entry: './src/index.js', 
 
   mode: "development",
   devtool: "eval-source-map",
