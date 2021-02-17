@@ -1,14 +1,14 @@
 {
-  "name": "phaser3-project-template",
+  "name": "game_five-dogs",
   "version": "1.1.2",
-  "description": "A Phaser 3 Project Template",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --config webpack/prod.js ",
     "start": "webpack-dev-server --config webpack/base.js --open",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://AlieksieienkoAndriy.github.io/webpack_game_five-dogs",
+  "homepage": "https://alieksieienkoandriy.github.io/webpack_game_five-dogs/",
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/preset-env": "^7.12.16",
