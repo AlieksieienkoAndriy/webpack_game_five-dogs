@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import backImg from '..sprites/back_five_dogs.jpg';
+// import backImg from '..sprites/back_five_dogs.jpg';
 // import backImgPort from '..sprites/back_five_dogs_portret.jpg';
 
 export class BootScene extends Phaser.Scene {
@@ -7,7 +7,7 @@ export class BootScene extends Phaser.Scene {
       super('Boot');
   }
   preload() {
-    this.load.image('background', backImg);    
+    this.load.image('background', '/src/assets/sprites/back_five_dogs.jpg');    
     this.load.image('background-portret', '/src/assets/sprites/back_five_dogs_portret.jpg');    
   }
   create() {
