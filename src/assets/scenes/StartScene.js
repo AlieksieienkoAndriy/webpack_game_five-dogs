@@ -1,7 +1,7 @@
 import Phaser from 'phaser';
 import { PuzzleScene } from './PuzzleScene';
 
-import {config} from '../../index';
+import {config} from './../../../index';
 
 export class StartScene extends PuzzleScene {
   constructor () {    
