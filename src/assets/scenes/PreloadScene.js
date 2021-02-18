@@ -19,7 +19,7 @@ export class PreloadScene extends Phaser.Scene {
   }
   preload() {
     this.load.image('dog', './src/assets/sprites/doggy.png');
-    this.load.atlas('circle', './src/assets/sprites/circle.png', '/src/assets/sprites/circle.json');
+    this.load.atlas('circle', './src/assets/sprites/circle.png', './src/assets/sprites/circle.json');
     this.load.image('logo', './src/assets/sprites/logo.png');
     this.load.image('prettyGirl', './src/assets/sprites/char.png');
     this.load.image('button', './src/assets/sprites/btn.png');
