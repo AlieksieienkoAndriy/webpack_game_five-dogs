@@ -1,10 +1,10 @@
 import Phaser from 'phaser';
 
-import { BootScene } from './assets/scenes/BootScene';
-import { EndScene } from './assets/scenes/EndScene';
-import { GameScene } from './assets/scenes/GameScene';
-import { PreloadScene } from './assets/scenes/PreloadScene';
-import { StartScene } from './assets/scenes/StartScene';
+import { BootScene } from './src/assets/scenes/BootScene';
+import { EndScene } from './src/assets/scenes/EndScene';
+import { GameScene } from './src/assets/scenes/GameScene';
+import { PreloadScene } from './src/assets/scenes/PreloadScene';
+import { StartScene } from './src/assets/scenes/StartScene';
 
 export let config = {
     type: Phaser.AUTO,  
